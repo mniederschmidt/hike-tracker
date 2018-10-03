@@ -1,0 +1,30 @@
+<header style="margin-top: 5px;">
+  <nav>
+    <div class="nav-wrapper">
+      <ul>
+        <li class="menu-item" routerLinkActive="green-background">
+          <a [routerLink]="'/dashboard'">Home</a>
+        </li>
+        <li class="menu-item" routerLinkActive="green-background">
+          <a [routerLink]="'/maps'">Maps</a>
+        </li>
+        <li class="menu-item" routerLinkActive="green-background">
+          <a [routerLink]="'/trails'">Trails</a>
+        </li>
+        <li class="menu-item" routerLinkActive="green-background">
+          <a [routerLink]="'/mytrails'">My Trails</a>
+        </li>
+        <li class="menu-item" routerLinkActive="green-background">
+          <a [routerLink]="'/photos'">Photos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div style="text-align:center">
+  <h1>
+    Hike Tracker
+  </h1>
+  <router-outlet></router-outlet>
+</div>
+

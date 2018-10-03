@@ -1,0 +1,34 @@
+
+body {
+  font-family: 'Lato';
+}
+
+nav {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+nav.secondary-nav {
+  line-height: 32px;
+  height: 32px;
+  margin-bottom: 0;
+}
+
+.nav-wrapper {
+  background-color: #aae0b2;
+}
+
+li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.menu-item a {
+  color: white;
+}
+
+.green-background {
+  background-color: #c2c6c4;
+}
+
